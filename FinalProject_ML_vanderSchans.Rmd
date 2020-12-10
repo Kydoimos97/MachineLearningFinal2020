@@ -107,7 +107,7 @@ library(rminer) #Mmetric Function
 library(MASS) # Stepwise LM
 library(randomForest) # RandomForest
 
-df <- read.csv(url("http://data.mishra.us/files/OJ.csv"))
+df <- read.csv(url("https://raw.githubusercontent.com/Kydoimos97/MachineLearningFinal2020/main/OJ.csv"))
 df_backup <- df
 
 factor_list <- c(names(df)[c(1,3,8,9,14,18)])
